@@ -9,7 +9,7 @@ function addElementToBeginningOfArray(array,item){
 //should modify the original array
 function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element);
-  return array 
+  return array
 }
 
 //should return new array
@@ -20,5 +20,6 @@ var newArray = [...array, element]
 
 // should modify the original array
 function destructivelyAddElementToEndOfArray(array, element) {
-  return array.push(element);
+  array.push(element);
+  return array
 }
