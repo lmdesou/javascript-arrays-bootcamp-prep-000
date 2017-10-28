@@ -15,10 +15,9 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 function addElementToEndOfArray(array, element){
   return [...array, element]
   const newArray = [...array, element]
-
 }
 
-// should modify the original array 
+// should modify the original array
 function destructivelyAddElementToBeginningOfArray(array, element) {
   return array.push(element);
 }
