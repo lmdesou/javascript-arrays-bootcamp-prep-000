@@ -18,6 +18,6 @@ function addElementToEndOfArray(array, element){
 }
 
 // should modify the original array
-function destructivelyAddElementToBeginningOfArray(array, element) {
+function destructivelyAddElementToEndOfArray(array, element) {
   return array.push(element);
 }
