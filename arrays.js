@@ -2,8 +2,8 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 
 //should return a new array
 function addElementToBeginningOfArray(array, element) {
-  return [element, ...array];
-  const newArray = [element, ...array]
+  var newArray = [element, ...array];
+  return newArray
 }
 
 //should modify the original array
