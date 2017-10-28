@@ -14,7 +14,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 //should return new array
 function addElementToEndOfArray(array, element){
   return [...array, element]
-  const newArray = [...array, element]
+  const newerArray = [...array, element]
 }
 
 // should modify the original array
