@@ -7,3 +7,6 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 //should modify the original array
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  return 
+}
