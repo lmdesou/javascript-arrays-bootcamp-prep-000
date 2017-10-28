@@ -33,6 +33,6 @@ function destructivelyRemoveElementFromBeginningOfArray (array) {
   return array
 }
 //should make a new array
-function removeElementFromBeginningOfArray() {
-  
+function removeElementFromBeginningOfArray(array) {
+
 }
