@@ -41,3 +41,7 @@ return newArray
 function destructivelyRemoveElementFromEndOfArray(array) {
   return array.pop()
 }
+//makes a new array
+function removeElementFromEndOfArray (array) {
+  
+}
